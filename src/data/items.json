@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Basque Cheesecake",
+    "price": 59.99,
+    "imgUrl": "/imgs/basque.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Blueberry Muffin",
+    "price": 4.99,
+    "imgUrl": "/imgs/blueberry-muffin.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Butter Cookies",
+    "price": 2.49,
+    "imgUrl": "/imgs/butter-cookie.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Carrot Cake",
+    "price": 5.99,
+    "imgUrl": "/imgs/carrot-cake.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Coffee Cookie",
+    "price": 0.49,
+    "imgUrl": "/imgs/coffee-cookie.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Honeycomb",
+    "price": 14.99,
+    "imgUrl": "/imgs/honeycomb.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mango Puddin",
+    "price": 4.99,
+    "imgUrl": "/imgs/mango-puddin.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Strawberry Marshmallow",
+    "price": 9.99,
+    "imgUrl": "/imgs/marshmallow.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Matcha Swiss Roll",
+    "price": 34.99,
+    "imgUrl": "/imgs/matcha-swiss-roll.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Peanut Brittle",
+    "price": 19.99,
+    "imgUrl": "/imgs/peanut-brittle.jpg"
+  }
+]
