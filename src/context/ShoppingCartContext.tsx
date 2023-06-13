@@ -19,7 +19,7 @@ type CartItem = {
 // use an empty object as default value and cast it to the expected context type, to avoid specifying null without default context value
 const ShoppingCartContext = createContext({} as ShoppingCartContext);
 
-// acts like a radio that listens for context
+// acts like a radio that listens for context, this function will be imported and called in components to use the ShoppingCartContext which includes the functions defined below
 export const useShoppingCart = () => useContext(ShoppingCartContext);
 
 // acts like a radio station that broadcasts the context
