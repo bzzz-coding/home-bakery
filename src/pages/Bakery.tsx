@@ -4,9 +4,7 @@ import { ItemForSale } from "../components";
 
 const Store = () => {
   return (
-    <>
-      <h1>Store</h1>
-
+    <div className="p-5">
       <Row md={2} sm={1} lg={3} className="g-3">
         {data.map((item) => (
           <Col key={item.id}>
@@ -14,7 +12,7 @@ const Store = () => {
           </Col>
         ))}
       </Row>
-    </>
+    </div>
   );
 };
 export default Store;

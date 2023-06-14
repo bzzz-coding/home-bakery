@@ -34,7 +34,7 @@ const ItemForSale = ({ id, name, price, unit, imgUrl }: ItemProps) => {
         </Card.Title>
         <div className="mt-auto">
           {quantity === 0 ? (
-            <Button className="w-100" onClick={() => increaseCartQuantity(id)}>
+            <Button className="w-100" variant="dark" onClick={() => increaseCartQuantity(id)}>
               + Add to Cart
             </Button>
           ) : (
@@ -46,19 +46,19 @@ const ItemForSale = ({ id, name, price, unit, imgUrl }: ItemProps) => {
                 className="d-flex align-items-center justify-content-center"
                 style={{ gap: "0.5rem" }}
               >
-                <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
+                <Button variant="outline-dark" size="sm" onClick={() => decreaseCartQuantity(id)}>-</Button>
                 <div>
                   <span className="fs-3">{quantity}</span> in cart
                 </div>
-                <Button onClick={() => increaseCartQuantity(id)}>+</Button>
+                <Button variant="outline-dark" size="sm" onClick={() => increaseCartQuantity(id)}>+</Button>
               </div>
-              <Button
+              {/* <Button
                 variant="danger"
                 size="sm"
                 onClick={() => removeFromCart(id)}
               >
                 Remove
-              </Button>
+              </Button> */}
             </div>
           )}
         </div>

@@ -11,14 +11,14 @@ const Navbar = () => {
   const { cartQuantity, openCart} = useShoppingCart();
   return (
     <>
-      <NavbarBootstrap sticky="top" className="bg-white shadow-sm mb-3">
+      <NavbarBootstrap sticky="top" className="bg-white shadow-sm">
         <Container>
           <Nav className="me-auto">
             <Nav.Link to="/" as={NavLink}>
               Home
             </Nav.Link>
-            <Nav.Link to="/store" as={NavLink}>
-              Store
+            <Nav.Link to="/bakery" as={NavLink}>
+              Bakery
             </Nav.Link>
             <Nav.Link to="/about" as={NavLink}>
               About
@@ -26,7 +26,7 @@ const Navbar = () => {
           </Nav>
           <Button
             style={{ width: "3rem", height: "3rem", position: "relative" }} // need to add a red dot (showing number of items in cart) that's absolutely positioned, so the Button needs to be relatively positioned
-            variant="outline-primary"
+            variant="outline-dark"
             className="rounded-circle"
             onClick={openCart}
           >
